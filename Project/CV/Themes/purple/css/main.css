@@ -1,0 +1,179 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+}
+
+#wrapper {
+    width: 969px;
+    height: 1200px;
+    margin: auto;
+    padding: 0;
+    border: 50px solid rgba(58,28,19,1);
+    border-radius: 3%;
+    background-color: rgba(247,242,226,1);
+}
+
+#top {
+    margin: 100px auto auto auto;
+    width: 90%;
+    display:flex;
+    height: 200px;
+    
+}
+
+#self {
+    flex-grow: 7;
+    height: 200px;
+}
+/*
+
+#contact {
+    flex-grow: 5;
+}
+*/
+
+#myImg {
+    flex-grow: 1;
+    background-image: url("../images/frame.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 130px;
+    height: 165px;
+    text-align: center;
+    line-height: 143px;
+}
+
+#myName {
+    color: rgba(28,22,19,1);
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+#info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+#myJob {
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    margin-top: -10px;
+    margin-bottom: 10px; 
+    display: block;
+}
+#info {
+    padding-left: 0;
+}
+
+#info li {
+    padding-left: 30px;
+     background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.ad {
+    background-image: url("../images/icn-ad.gif");
+}
+.mail {
+    background-image: url("../images/icn-mail.gif");
+}
+.tel {
+    background-image: url("../images/icn-tel.gif");
+}
+
+.date {
+    background-image: url("../images/icon-date.png");
+    background-size: 20px 20px;  
+}
+
+.entry {
+    display: flex;
+    
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#row {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.top {
+    height: 80px;
+}
+.left {
+    width: 138px;
+}
+
+.right {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+#title {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-align: right;
+    line-height: 40px;
+    font-size: 1.3em;   
+     color: rgba(110,64,32,1);
+}
+
+#experience {
+    height: 150px;
+}
+
+.left .info {
+    line-height: 30px;
+    height: 30px;
+    font-size: 0.9em;
+    text-align: right;
+    font-weight: bold;
+    color: rgba(110,64,32,0.8);
+}
+
+.right .info {
+    line-height: 30px;
+    height: 30px;
+    font-size: 0.9em;   
+    font-weight: bold;
+    color: rgba(110,64,32,0.8);
+}
+
+.right span, .left span {
+    line-height: 20px;
+    height: 20px;
+    font-size: 0.75em;
+    display: block;
+    margin-top: -5px;
+    color: rgba(110,64,32,0.6);
+    
+}
+
+.infomation ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.infomation ul li {
+    width: 28%;
+    line-height: 30px;
+    height: 30px;
+    font-size: 0.9em;   
+    font-weight: bold;
+    color: rgba(110,64,32,0.8);
+    list-style-position: inside;
+    
+}
